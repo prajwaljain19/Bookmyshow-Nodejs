@@ -3,10 +3,11 @@ import Selectmovie from "../component/Selectmovie";
 import Lastbooking from "../component/Lastbooking";
 import Timeschedule from "../component/Timeschedule";
 import Bookseat from "../component/Bookseat";
+import '../CSS/Home.css'
 
 const Home = () => {
   return (
-    <div>
+    <div className="container">
       <div className="Wrapper">
         <div className="select_movie_component">
           <Selectmovie />
