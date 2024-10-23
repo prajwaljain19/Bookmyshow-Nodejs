@@ -20,7 +20,7 @@ const Home = () => {
       <div className="time_seats_container">
          <Timeschedule/>
          <Bookseat/>
-        <button>Book Now</button>
+        <button className="BN-BTN">Book Now</button>
       </div>
     </div>
   );

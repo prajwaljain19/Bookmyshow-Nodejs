@@ -12,3 +12,33 @@
     width: 100%;
     display: flex;
 }
+
+.BN-BTN {
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    left: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+    color: rgb(5,5,5);
+    font-weight: bold;
+    background-color: rgba(199, 207, 224);
+    border: 2px solid black;
+    margin-bottom: 30px;
+    position: relative;
+}
+.Wrapper {
+    display: flex;
+    flex-grow: 0;
+    overflow: visible;
+    color: black;
+}
+.TS_main_container {
+    color: black;
+    display: flex;
+}
+.TS_heading {
+    font-size: 22px;
+    color: black;
+}

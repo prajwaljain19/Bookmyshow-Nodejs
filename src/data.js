@@ -178,7 +178,7 @@ let movieslist = [
      
     
   ]
-let slot = ['10:00 AM', '01:00 PM','03:00 PM','08:00 PM']
+let slot = ['10:00 AM', '01:00 PM','03:00 PM','08:00 PM', '10:00 AM', '01:00 PM']
 
 exports.movieslist = movieslist;
 exports.slot = slot;

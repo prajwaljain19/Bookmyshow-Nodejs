@@ -3,7 +3,7 @@ import React from 'react'
 const Lastbooking = () => {
   return (
     <div>
-      
+      HELLO
     </div>
   )
 }
