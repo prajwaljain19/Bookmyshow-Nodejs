@@ -12,7 +12,7 @@ const Home = () => {
         <div className="select_movie_component">
           <Selectmovie />
         </div>
-        <div className="last_booking_details_container">
+        <div className="last_booking">
             <Lastbooking/>
             </div>
       </div>

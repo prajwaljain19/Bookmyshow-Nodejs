@@ -14,16 +14,16 @@
 }
 
 .BN-BTN {
-    padding: 10px;
+    padding: 7px;
     border: none;
     margin-top: 20px;
     cursor: pointer;
     left: 10px;
-    border-radius: 5px;
-    font-size: 25px;
+    border-radius: 3px;
+    font-size: 20px;
     color: rgb(5,5,5);
     font-weight: bold;
-    background-color: rgba(199, 207, 224);
+    background-color: rgb(168, 34, 34);
     border: 2px solid black;
     margin-bottom: 30px;
     position: relative;
@@ -41,4 +41,21 @@
 .TS_heading {
     font-size: 22px;
     color: black;
+}
+.last_booking {
+    font-size: 10px;
+    margin-left: 50px;
+}
+.seat_d {
+    font-weight: normal;
+}
+.btn_button button {
+    background-color: rgb(45, 86, 126);
+    position: relative;
+    color: white;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
