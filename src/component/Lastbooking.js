@@ -14,6 +14,11 @@ const Lastbooking = () => {
        <button>D1:0</button>
        <button>D2:0</button>
        </div>
+       <div className='btn_gp'>
+        <h1 className='book_slot'>Slot</h1>
+        <h1 className='book_movie'>Movie: </h1>
+       </div>
+
     </div>
     
   )
