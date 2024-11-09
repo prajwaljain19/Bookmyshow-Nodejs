@@ -19,7 +19,9 @@ const Home = () => {
 
       <div className="time_seats_container">
          <Timeschedule/>
-         <Bookseat/>
+         <div className="book_t">
+         <Bookseat/> 
+         </div>
         <button className="BN-BTN">Book Now</button>
       </div>
     </div>

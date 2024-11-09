@@ -38,6 +38,14 @@
     color: black;
     display: flex;
 }
+.Book_heading {
+    font-size: 22px;
+    color: black;
+}
+.Book_seat {
+    display: flex;
+    color: black;
+}
 .TS_heading {
     font-size: 22px;
     color: black;

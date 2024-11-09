@@ -8,7 +8,7 @@ let movieslist = [
       "Genre": "Action, Adventure, Fantasy",
       "Director": "James Cameron",
       "Writer": "James Cameron",
-      "Actors": "Sam Worthington, Zoe Saldana, Sigourney Weaver, Stephen Lang",
+      "Actors": "Sam Worthington, Zoe Saldana, Sigourney Weaver, Stephen Lang", 
       "Plot": "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
       "Language": "English, Spanish",
       "Country": "USA, UK",
@@ -179,6 +179,8 @@ let movieslist = [
     
   ]
 let slot = ['10:00 AM', '01:00 PM','03:00 PM','08:00 PM', '10:00 AM', '01:00 PM']
+let seats = ['A1', 'A2', 'A3', 'A4', 'D1', 'D2']
 
 exports.movieslist = movieslist;
 exports.slot = slot;
+exports.seats = seats;

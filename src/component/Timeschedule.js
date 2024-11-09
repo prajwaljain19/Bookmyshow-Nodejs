@@ -5,7 +5,7 @@ import Radiocomponent from './Radiocomponent'
 const Timeschedule = () => {
   return (
     <div className='Slot_container'>
-       <h1 className='TS_heading'>Select Time:</h1>
+       <h1 className='TS_heading'>Select a Schedule:</h1>
       <div className='TS_main_container'>
         {slot.map((el,index) => {
           return (
