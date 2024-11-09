@@ -67,9 +67,6 @@
     border-radius: 5px;
     cursor: pointer;
 }
-.btn_gp {
-    margin-left: 10px;
-}
 .book_slot {
     font-weight: normal;
     font-size: medium;
@@ -85,5 +82,27 @@
     border: none;
     border: 2px solid black;
     cursor: pointer;
-
+}
+.btn_button {
+    margin: 10px;
+    font-size: medium;
+    display: inline-flex;
+    padding: 5px 10px;
+}
+.seat_value {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center; 
+    margin: 10px;
+    position: relative;
+    right: 10px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+.seat_value:hover {
+    background-color: rgba(164, 142, 142, 0.207)
 }

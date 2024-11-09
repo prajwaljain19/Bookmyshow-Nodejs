@@ -1,4 +1,6 @@
 import React from 'react'
+import { seats } from '../data'
+import "../CSS/Home.css"
 
 const Lastbooking = () => {
   return (
@@ -7,20 +9,15 @@ const Lastbooking = () => {
 
        <h1 className='seat_d'>seats:</h1>
        <div className='btn_button'>
-       <button>A1:3</button>
-       <button>A2:0</button>
-       <button>A3:0</button>
-       <button>A4:0</button>
-       <button>D1:0</button>
-       <button>D2:0</button>
+        {seats.map((el,index) => (
+          <li className='seat_value' key={index}>
+            (seat) : 0
+          </li>
+        ))}
        </div>
-       <div className='btn_gp'>
-        <h1 className='book_slot'>Slot</h1>
-        <h1 className='book_movie'>Movie: </h1>
-       </div>
-
-    </div>
-    
+       <p className='slot' style={{textAlign: "left"}}>Slot: 00:00 </p>
+       <p className='movie'>Movie: <span>Tenet</span></p> 
+    </div> 
   )
 }
 
