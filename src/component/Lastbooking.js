@@ -16,7 +16,7 @@ const Lastbooking = () => {
         ))}
        </div>
        <p className='slot' style={{textAlign: "left"}}>Slot: 00:00 </p>
-       <p className='movie'>Movie: <span>Tenet</span></p> 
+       <p className='movie'>Movie: <span className='movie_name'>Tenet</span></p> 
     </div> 
   )
 }

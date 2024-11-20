@@ -106,3 +106,7 @@
 .seat_value:hover {
     background-color: rgba(164, 142, 142, 0.207)
 }
+.movie_name {
+    font-size: 13px;
+    font-weight: bold;
+}
