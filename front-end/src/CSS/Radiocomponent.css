@@ -1,0 +1,25 @@
+.form-check-label{
+    width: 100px;
+    height: 50px;
+    padding-right: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;  
+    margin: 10px;
+    cursor: pointer;
+    user-select: none;
+    font-weight: 600;
+    letter-spacing: 0.5px; 
+    border: 2px solid rgb(10, 10, 10);
+}
+
+.text{
+    font-size: 13px;
+    text-align: center;
+}
+
+.form-check-label.active {
+    background-color: rgb(219,9,9,0);
+}

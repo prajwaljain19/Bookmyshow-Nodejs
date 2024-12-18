@@ -1,0 +1,22 @@
+.form-check{
+    width: 100px;
+    height: 50px;
+    color: black;
+    display: flex;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; 
+    margin-left: 10px;
+    cursor: pointer;
+    border: 2px solid rgb(10, 10, 10);
+}
+.seat_input {
+    margin-left: 10px;
+    position: relative;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;   
+    margin: 10px;
+     
+}
